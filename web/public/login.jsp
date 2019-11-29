@@ -14,8 +14,14 @@
 
         <form id="loginform" name="loginform" method="POST" action="j_security_check" accept-charset="UTF-8">
 
-            <!-- Insert your form elements here -->
-
+            <fieldset>
+                <label for="j_username">Username:</label>
+                <input id="j_username" name="j_username" type="text" tabindex=1 /><br />
+                <label for="j_password">Password:</label>
+                <input id="j_password" name="j_password" type="password" tabindex=2 /><br />
+                <input type="submit" value="Log In" tabindex="3"/>
+            </fieldset>
+                
         </form>
 
         <b>How to Log In</b>
